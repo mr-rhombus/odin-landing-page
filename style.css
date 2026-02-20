@@ -89,7 +89,7 @@ button {
   flex-direction: column;
   flex: auto;
   align-items: center;
-  padding: 20px 5% 75px;
+  padding: 20px 5% 50px;
 }
 
 .deck {
@@ -156,7 +156,7 @@ button {
 }
 
 .signup p {
-  margin: 0 auto;
+  margin: 2px auto;
   font-size: 14px;
   font-weight: 300;
 }
