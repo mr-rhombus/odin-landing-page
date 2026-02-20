@@ -22,11 +22,54 @@ body {
 .content {
   display: flex;
   flex-direction: column;
-  padding: 0 5%;
 }
 
 .top-content {
   display: flex;
+  justify-content: space-between;
+  align-items: center;
+  background-color: #1f2937;
+  padding: 0 5%;
+  gap: 20px;
+}
+
+.about {
+  width: 50%;
+  flex: none;
+  color: white;
+  padding: 75px 0;
+}
+
+.about-image {
+  display: flex;
+  flex: none;
+  height: 200px;
+  width: 400px;
+}
+
+.about-image img {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+}
+
+.about h1 {
+  font-size: 48px;
+  font-weight: 900;
+  margin: 25px 0 0 0;
+}
+
+.about p {
+  font-size: 18px;
+}
+
+.about button {
+  background-color: #3882F6;
+  border-radius: 5px;
+  color: white;
+  padding: 8px 32px;
+  border: none;
+  font-weight: 700;
 }
 
 ul {
