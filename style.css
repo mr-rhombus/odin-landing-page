@@ -164,3 +164,16 @@ button {
 .signup button {
   border: 1px solid white;
 }
+
+.footer {
+  background-color: #1f2937;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 50px;
+}
+
+.footer p {
+  color: white;
+  font-size: 12px;
+}
