@@ -75,7 +75,7 @@ img {
   font-size: 18px;
 }
 
-.about button {
+button {
   background-color: #3882F6;
   border-radius: 5px;
   color: white;
@@ -137,4 +137,30 @@ img {
   text-align: right;
   font-weight: bold;
   font-size: 16px;
+}
+
+.signup {
+  background-color: #3882f6;
+  border-radius: 5px;
+  width: 80%;
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  margin: 50px auto;
+  color: white;
+  padding: 35px;
+}
+
+.signup h3 {
+  margin: 0;
+}
+
+.signup p {
+  margin: 0 auto;
+  font-size: 14px;
+  font-weight: 300;
+}
+
+.signup button {
+  border: 1px solid white;
 }
